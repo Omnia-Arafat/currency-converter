@@ -21,11 +21,24 @@ h1{
   
 }
 
-.convert,.exchange{
+.exchange{
+  font-family: 'Sansita Swashed', cursive;
+    font-size: 25px;
+    color: #D71313;
+    padding-right: 0px;
+    display: flex;
+    align-content: space-between;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: -71px;
+    margin-left: 64px;
+}
+.convert{
+
   font-family: 'Sansita Swashed', cursive;
   font-size: 25px;
   color: #D71313;
-  padding-right: 20px;
+  padding-right: 235px;
 }
 
 input {
@@ -36,22 +49,32 @@ input {
     outline: 0;
 }
 
+
 #original-currency-amount{
-  padding-left: 50px;
+  padding-left: 0;
+    width: 73px;
+    margin-left: -3px;
+    text-align: center;
 }
 button {
 width: 300px;
 height: 40px;
   font-size: 20px;
   font-weight: 600;
-  color: #00539CFF;
+  color: rgb(255, 255, 255);
   font-family: 'Sansita Swashed', cursive;
+  background-color: #3a0c58;
+  background-color: #06266b;
+}
+
+button:hover{
+  background-color: #00FF99;
 }
 select{
 	width: 80px;
 	height: 35px;
 	font-size: 20px;
-	text-align: center;
+	text-align: initial;
 	padding-left: 10px;
   outline: 0;
 }
@@ -86,7 +109,10 @@ span{
 }
 
 #exchange-rate{
-  cursor:default;
+  cursor: default;
+  text-align: center;
+  width: 73px;
+  
 }
 
 
@@ -113,4 +139,14 @@ span{
   margin: 15px;
   width: 252px;
 
+}
+
+.logo{
+  float: right;
+  margin-top: 5px
+}
+
+#to{
+  width: 73px;
+    margin-left: 198px;
 }
